@@ -9,7 +9,6 @@
 * Sept. 2019 - present: QA manual 
 
 **Experience in different activities related to functional testing:**
-
 • creation of testing documentation: test cases, checklists, decision tables, bug reports;
 • web, desktop and mobile manual testing;
 • working in Scrum team;
