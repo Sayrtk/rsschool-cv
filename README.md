@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sayrtk.github.io/rsschool-cv/
