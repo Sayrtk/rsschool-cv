@@ -2,11 +2,141 @@
 <html lang="en">
 
 <head>
-    <title>CV avatar</title>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="icon" href="./assets/fav/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    Content
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/image.jpg" alt class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Margarita Karebo</h1>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        Tbilisi, Georgia
+                    </li>
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:ritakarebo@gmail.com" title="email">ritakarebo@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/Sayrtk" title="github">Sayrtk</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a href="https://t.me/drimeri" title="github">@drimeri</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">drimeri#4012</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="summury">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I am a manual tester with 3 years of experience. I want to learn JS in order to try myself in
+                    automated
+                    testing, also I want to explore how the work of creating web applications organized under the hood.
+                </p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Web-development:<span> HTML5, CSS3, JavaScript</span>
+                    </li>
+                    <li class="section-item">
+                        Version control:<span> GIT, Github</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics:<span> Figma</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>function factorial(n) {
+          if(n &lt; 0) return null;
+          if (n &lt;= 1) return 1;
+          return n * factorial(n-1);
+        }</code></pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        October 2018<span> - Basic of Software Testing (QA Academy)</span>
+                    </li>
+                    <li class="section-item">
+                        December 2019<span> - Mobile Application Testing (IT Academy)</span>
+                    </li>
+                    <li class="section-item">
+                        May 2022<span> - JS automation testing (IT Academy)</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://github.com/Sayrtk/Final">Final project from JS automation course</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <p>Minsk State Linguistic University (2014-2019)</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B2 - Upper-Intermediate</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/sayrtk" class="github nav-link">Sayrtk</a></div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
